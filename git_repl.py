@@ -13,4 +13,5 @@ if __name__ == '__main__':
         try:
             run_git_command(input('git '))
         except EOFError:
+            print()
             break
